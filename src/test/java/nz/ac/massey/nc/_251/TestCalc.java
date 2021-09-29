@@ -16,7 +16,7 @@ public class TestCalc {
         int a = 1;
         int b = 2;
         int result_subtract = Calc.subtract(a, b);
-        Assertions.assertEquals(a + b, result_subtract);
+        Assertions.assertEquals(a - b, result_subtract);
     }
 
 }
