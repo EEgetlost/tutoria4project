@@ -11,12 +11,12 @@ public class TestCalc {
         int result_add = Calc.add(a, b);
         Assertions.assertEquals(a + b, result_add);
     }
-//    @Test
-//    public  void testSubtract() throws InterruptedException {
-//        int a = 1;
-//        int b = 2;
-//        int result_subtract = Calc.subtract(a, b);
-//        Assertions.assertEquals(a - b, result_subtract);
-//    }
+    @Test
+    public  void testSubtract() throws InterruptedException {
+        int a = 1;
+        int b = 2;
+        int result_subtract = Calc.subtract(a, b);
+        Assertions.assertEquals(a + b, result_subtract);
+    }
 
 }
